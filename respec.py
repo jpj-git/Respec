@@ -28,6 +28,8 @@ def respec_runes(sf):
 
     sf['runeUnlocks']['unlocks'] = runes
     sf['points'] = p
+    sf['swordRuneSelections'] = [-1, -1, -1, -1]
+    sf['shieldRuneSelections'] = [-1, -1, -1, -1]
     return sf
 
 
